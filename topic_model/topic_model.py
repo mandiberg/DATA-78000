@@ -11,7 +11,10 @@ import nltk
 import matplotlib.pyplot as plt
 
 # testing or making model?
-DO_COHERENCE_TEST = False
+DO_COHERENCE_TEST = True
+START = 10
+LIMIT = 300
+STEP = 20
 
 # model settings
 NUM_TOPICS = 25
@@ -20,7 +23,8 @@ WORKERS = 8
 
 # data settings
 USE_SUBSET = True
-DO_TESTING = True
+VERBOSE = True
+if DO_COHERENCE_TEST: VERBOSE = False
 TRUNCATE_SIZE = 50000
 INSPECT_ROW = 4310
 UNSEEN_TEXT = "The stock market is experiencing unprecedented volatility due to global economic uncertainty."
@@ -84,7 +88,7 @@ if __name__ == '__main__':
     if USE_SUBSET:
         documents = data_text.truncate(before=1, after=TRUNCATE_SIZE)
 
-    if DO_TESTING:
+    if VERBOSE:
         # verify the data looks correct
         print("\n\ndocument length is ", len(documents))
         print(documents[:5])
@@ -101,14 +105,14 @@ if __name__ == '__main__':
     # preprocess all the docs
     processed_docs = documents[headline_column].map(preprocess)
 
-    if DO_TESTING:
+    if VERBOSE:
         print("\n\npreprocessed docs:")
         print(processed_docs[:10])
 
     # Create dictionary
     dictionary = gensim.corpora.Dictionary(processed_docs)
 
-    if DO_TESTING:
+    if VERBOSE:
         count = 0
         print("\n\nthe first 10 tokens in the dictionary are:")
         for k, v in dictionary.items():
@@ -122,7 +126,7 @@ if __name__ == '__main__':
 
     # Create Bag of Words corpus
     bow_corpus = [dictionary.doc2bow(doc) for doc in processed_docs]
-    if DO_TESTING:
+    if VERBOSE:
         this_row = bow_corpus[INSPECT_ROW]
         print(f'\n\nbow corpus for row #{INSPECT_ROW}: ')
         for i in range(len(this_row)):
@@ -130,13 +134,14 @@ if __name__ == '__main__':
 
     # are we doing a coherence test or creating a model?
     if DO_COHERENCE_TEST:
+        print("\n\ncomputing coherence values for different numbers of topics, starting at", START, "and going to", LIMIT, "in steps of", STEP)
         coherence_values = compute_coherence_values(
             dictionary=dictionary,
             corpus=bow_corpus,
             texts=processed_docs,
-            start=10,
-            limit=200,
-            step=15
+            start=START,
+            limit=LIMIT,
+            step=STEP
         )
 
         # display graph of coherence values
