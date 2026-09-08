@@ -10,14 +10,19 @@ import numpy as np
 import nltk
 import matplotlib.pyplot as plt
 
+'''
+This code opens a CSV file, preprocesses the text data, and creates a topic model
+It has a secondary function that computes and visualizes coherence values to try to find the best NUM_TOPICS
+'''
+
 # testing or making model?
-DO_COHERENCE_TEST = True
+DO_COHERENCE_TEST = False
 START = 10
 LIMIT = 300
 STEP = 20
 
 # model settings
-NUM_TOPICS = 25
+NUM_TOPICS = 45
 PASSES = 10
 WORKERS = 8
 
@@ -28,6 +33,8 @@ if DO_COHERENCE_TEST: VERBOSE = False
 TRUNCATE_SIZE = 50000
 INSPECT_ROW = 4310
 UNSEEN_TEXT = "The stock market is experiencing unprecedented volatility due to global economic uncertainty."
+csv_file = 'gc_dissertations_combined_v2.csv'
+headline_column = 'abstract'
 
 # dictonary settings
 MAX_WORDS = 100000
@@ -76,8 +83,6 @@ if __name__ == '__main__':
     # load data
 
     # data from: https://www.kaggle.com/datasets/therohk/million-headlines
-    csv_file = 'abcnews-date-text.csv'
-    headline_column = 'headline_text'
 
     data = pd.read_csv(csv_file)
     data_text = data[[headline_column]]
@@ -179,6 +184,12 @@ if __name__ == '__main__':
         for index, score in sorted(lda_model[bow_vector], key=lambda tup: -tup[1]):
             print(f"Score: {score}\t Topic {index}: {lda_model.print_topic(index, 5)}")
 
+
+    # save the model to disk
+    lda_model.save('lda_model.gensim')
+    dictionary.save('lda_model.dict')
+    print("Model and dictionary saved to disk.")
+    print("Model saved to disk.")
 
 
     '''
