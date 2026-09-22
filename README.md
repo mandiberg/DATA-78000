@@ -1,6 +1,6 @@
 # DATA-78000
 ### AI and Machine Learning for Artists and Humanists
-----
+Prof Michael Mandiberg
 
 This site contains course materials for DATA 78000 Special Topics "AI and Machine Learning for Artists and Humanists" at the CUNY Graduate Center
 
