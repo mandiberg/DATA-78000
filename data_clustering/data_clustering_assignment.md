@@ -23,7 +23,7 @@ By the end of this assignment, you will be able to:
 
 ## Order of Operations
 
-I have prepared a [Colab notebook with an example Gensim code pattern](https://colab.research.google.com/drive/1UznWi2NEYZtGSdgQPFqdL77Q5rQQaIXt?usp=sharing)
+I have prepared a [Colab notebook with an example k-means code pattern](https://colab.research.google.com/drive/1vP3jNZgd-VmTyajFImPdClnJDH4nd5-u#scrollTo=3ae3bc93)
 
 ### Week one:
 Introduction to Wikidata, including linked open data, visual query builder, and using a model to generate SPARQL for Wikdata Query Service.
