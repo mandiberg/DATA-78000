@@ -23,18 +23,21 @@ By the end of this assignment, you will be able to:
 
 ## Order of Operations
 
-I have prepared a [Colab notebook with an example k-means code pattern](https://colab.research.google.com/drive/1vP3jNZgd-VmTyajFImPdClnJDH4nd5-u#scrollTo=3ae3bc93)
+I have prepared:
+- a [Colab notebook with an example k-means code pattern](https://colab.research.google.com/drive/1vP3jNZgd-VmTyajFImPdClnJDH4nd5-u#scrollTo=3ae3bc93)
+- a [Colab notebook with a k-means code pattern that assigns back to the dataframe](https://colab.research.google.com/drive/1RjK804VGPp8TX4dr9C1Wu5R7hk1vVxCE?usp=sharing)
+- a [Colab notebook with an example k-modes code pattern](https://colab.research.google.com/drive/1e_A0pISDUvKSjlohb5QKK5dIIWZ6uoi7?usp=sharing)
 
 ### Week one:
 Introduction to Wikidata, including linked open data, visual query builder, and using a model to generate SPARQL for Wikdata Query Service.
 
 ### Week two
-Bring two datasets to class, with research questions
-Discuss research questions
-k-means and k-modes demo
-Get it running on your data
-Discussion of Elbow Method for cluster size selection
-Discussion of preparing data for clustering 
+- Bring two datasets to class, with research questions
+- Discuss research questions
+- k-means and k-modes demo
+- Get it running on your data
+- Discussion of Elbow Method for cluster size selection
+- Discussion of preparing data for clustering 
 
 ### Week three
 Lightning presentations and workshopping
