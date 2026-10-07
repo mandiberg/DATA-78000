@@ -59,3 +59,11 @@ Project due
 - Be careful with your assumptions (about what is numerical and what is scalar, how you normalize/weight the data)
 - Do not treat any model output as an absolute truth: any output is a probabilistic summary, based on the shape of the data it was trained on.
 - When your results are weak or ambiguous, say so explicitly. If you know why this is the case, present that information. 
+
+## If you want to dive deep, here are some references
+- [Towards Data Science on K-Means](https://towardsdatascience.com/k-means-clustering-explained-4528df86a120/) I find TDS to be a nice medium between Geeks For Geeks and peer reviewed papers.
+- [Scikit learn documentation on different clustering methods](https://scikit-learn.org/stable/modules/clustering.html) This is valuable if you want to dive deep, as you can see some of these really make a difference depending on the shape of the data.
+- [Towards Data Science on TSNE](https://towardsdatascience.com/mastering-t-sne-a-comprehensive-guide-to-understanding-and-implementation-in-python-480929bfe6f4/)
+- [Scikit learn documentation for TSNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
+- [The original paper describing K-Modes](https://arxiv.org/pdf/cs/0603120)
+- [An IBM explanation of Hamming Distance](https://www.ibm.com/think/topics/hamming-distance) which is how K-Modes calculates distance between categorical/boolean vectors
