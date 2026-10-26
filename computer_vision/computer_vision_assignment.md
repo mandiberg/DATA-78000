@@ -26,8 +26,11 @@ By the end of this assignment, you will be able to:
 ## Order of Operations
 
 I have prepared:
-- a [Colab notebook with an example mediapipe code pattern](https://colab.research.google.com/drive/1rJjngmv-TjW9y8-PwfctGQe4YU1c9TpZ?usp=sharing)
-- the rest will be coming soon
+- [a Colab notebook with an example mediapipe code pattern](https://colab.research.google.com/drive/1rJjngmv-TjW9y8-PwfctGQe4YU1c9TpZ?usp=sharing)
+- [a Colab notebook for the DeepFace face recognition package](https://colab.research.google.com/drive/1rRLg2GeZftc_hw8plpYLDcLbi6lh06Sc?usp=sharing)
+- [a Colab notebook for the DeepFace where you can upload your own image](https://colab.research.google.com/drive/1HuQWUNOFkGq-qPI6aXmO8NowlpXxiuWX?usp=sharing)
+- YOLOe Object Detection
+- YOLO26 Training Run
 
 ### Week one:
 Face Detection and Positioning 
@@ -59,3 +62,6 @@ Turn in four notebooks or .py scripts for each of your customizations of the can
 - [High level overview of computer vision](https://www.ibm.com/think/topics/computer-vision)
 - [Chapter from Foundations of Computer Vision (MIT)](https://visionbook.mit.edu/object_recognition_v3.html)
 - [The original Harr Cascade Object Detection paper](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf)
+- [An explanation of a Convolutional Neural Network (CNN)](https://learnopencv.com/understanding-convolutional-neural-networks-cnn/)
+- [Cosine Similarity explainer, and relationshop to Cartesian Distance](https://towardsdatascience.com/demystifying-cosine-similarity/)
+- [A different Cosine Similarity explainer](https://www.ibm.com/think/topics/cosine-similarity)

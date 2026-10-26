@@ -219,3 +219,9 @@ __marimo__/
 topic_model/gc_dissertations_combined_v2.csv
 .DS_Store
 .vscode/
+data_clustering/KMeans_TowardsDataScience.pdf
+data_clustering/TSNE_TowardsDataScience.pdf
+data_clustering/Salvaggio_Market_Model_Neural_Economy.pdf
+/topic_model
+computer_vision/0.92_7979608_YOLO_debug.jpg
+computer_vision/Central_Park_Apr_2019_122.jpg
