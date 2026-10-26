@@ -65,3 +65,4 @@ Turn in four notebooks or .py scripts for each of your customizations of the can
 - [An explanation of a Convolutional Neural Network (CNN)](https://learnopencv.com/understanding-convolutional-neural-networks-cnn/)
 - [Cosine Similarity explainer, and relationshop to Cartesian Distance](https://towardsdatascience.com/demystifying-cosine-similarity/)
 - [A different Cosine Similarity explainer](https://www.ibm.com/think/topics/cosine-similarity)
+- [A good visual explanation of what a "neural network" is](https://www.3blue1brown.com/lessons/neural-networks/)
