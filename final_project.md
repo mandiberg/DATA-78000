@@ -18,12 +18,20 @@ An alternative tool could be a variation on one of them that is better suited fo
 
 Timeline:
 
-Oct 27: in class brainstorming
-Nov 3: in class: pitches for 3 separate ideas
-Nov 10: in class tools brainstorming, write up 250 word abstract for submission. 
-Nov 17: shortened class (4:15-5:15) + individual meetings about your project ideas in response to the abstract. 
-Nov 24: no checkpoint
-... let's figure the rest out in class ...
+- Oct 27: in class brainstorming
+- Nov 3: in class: pitches for 3 separate ideas
+- Nov 10: 
+    - have a dataset by this point
+    - in class tools brainstorming
+    - write up 250-500 word proposal 
+- Nov 17: 
+    - shortened class (4:15-5:15)
+    - individual meetings about your project ideas in response to the abstract. 
+    - MM will read the abstract before meeting
+- Nov 24: Proof of concept?
+- Dec 1: MM at conference -- either zoom class, or individual meetings, TBD
+- Dec 8:
+- Dec 15:
 
 
 ## What You Will Learn (AKA Learning Goals)
