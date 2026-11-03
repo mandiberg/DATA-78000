@@ -29,7 +29,8 @@ I have prepared:
 - [a Colab notebook with an example mediapipe code pattern](https://colab.research.google.com/drive/1rJjngmv-TjW9y8-PwfctGQe4YU1c9TpZ?usp=sharing)
 - [a Colab notebook for the DeepFace face recognition package](https://colab.research.google.com/drive/1rRLg2GeZftc_hw8plpYLDcLbi6lh06Sc?usp=sharing)
 - [a Colab notebook for the DeepFace where you can upload your own image](https://colab.research.google.com/drive/1HuQWUNOFkGq-qPI6aXmO8NowlpXxiuWX?usp=sharing)
-- YOLOe Object Detection
+- [YOLOv8 Object Detection](https://colab.research.google.com/gist/mandiberg/1f08df8531757f185d17d99f68a8f74c/babylog_yolov8.ipynb)
+- YOLOe Object Detection (in this repo)
 - YOLO26 Training Run
 
 ### Week one:
