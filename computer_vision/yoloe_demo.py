@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLOE
 
 USE_TEXT_PROMPT = True  # Set to False to use a prompt-free model
-TEXT_PROMPT = "bus"
+TEXT_PROMPT = "hairstyle"
 
 # Load the correct YOLOE checkpoint for the selected prompting mode.
 # Prompt-free models end with '-pf.pt' and do not support text class prompts.
@@ -11,7 +11,7 @@ model_path = "yoloe-v8l-seg.pt" if USE_TEXT_PROMPT else "yoloe-v8l-seg-pf.pt"
 model = YOLOE(model_path)
 
 # 2. Run inference on your target image
-image_path = "1.00_22890682_YOLO_debug.jpg"
+image_path = "1.00_17472115_YOLO_debug.jpg"
 
 if USE_TEXT_PROMPT:
     subject = input(f"Enter the object to detect (default: {TEXT_PROMPT}): ").strip()

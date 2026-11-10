@@ -225,3 +225,7 @@ data_clustering/Salvaggio_Market_Model_Neural_Economy.pdf
 /topic_model
 computer_vision/0.92_7979608_YOLO_debug.jpg
 computer_vision/Central_Park_Apr_2019_122.jpg
+/yolo_dataset
+/takingstock_flags_nov9_yolo26n
+yolo26n.pt
+/yolo/runs
