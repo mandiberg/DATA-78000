@@ -1,0 +1,233 @@
+path: flags/multi_flag
+train: images
+val: images
+nc: 228
+names:
+  0: Afghanistan
+  1: Albania
+  2: Algeria
+  3: American Samoa
+  4: Andorra
+  5: Angola
+  6: Anguilla
+  7: Antigua and Barbuda
+  8: Argentina
+  9: Armenia
+  10: Aruba
+  11: Australia
+  12: Austria
+  13: Azerbaijan
+  14: Bahamas (the)
+  15: Bahrain
+  16: Bangladesh
+  17: Barbados
+  18: Belarus
+  19: Belgium
+  20: Belize
+  21: Benin
+  22: Bermuda
+  23: Bhutan
+  24: Bolivia (Plurinational State of)
+  25: Bosnia and Herzegovina
+  26: Botswana
+  27: Brazil
+  28: Virgin Islands (British)
+  29: Brunei Darussalam
+  30: Bulgaria
+  31: Burkina Faso
+  32: Burundi
+  33: Cambodia
+  34: Cameroon
+  35: Canada
+  36: Cabo Verde
+  37: Cayman Islands (the)
+  38: Central African Republic (the)
+  39: Chad
+  40: Chile
+  41: China
+  42: Christmas Island
+  43: Colombia
+  44: Comoros (the)
+  45: Cook Islands (the)
+  46: Costa Rica
+  47: Croatia
+  48: Cuba
+  49: Cyprus
+  50: Czechia
+  51: Congo (the Democratic Republic of the)
+  52: Denmark
+  53: Djibouti
+  54: Dominica
+  55: Dominican Republic (the)
+  56: Ecuador
+  57: Egypt
+  58: El Salvador
+  59: Equatorial Guinea
+  60: Eritrea
+  61: Estonia
+  62: Ethiopia
+  63: Malvinas
+  64: Faroe Islands (the)
+  65: Fiji
+  66: Finland
+  67: France
+  68: French Polynesia
+  69: Gabon
+  70: Gambia (the)
+  71: Georgia
+  72: Germany
+  73: Ghana
+  74: Gibraltar
+  75: Greece
+  76: Greenland
+  77: Grenada
+  78: Guam
+  79: Guatemala
+  80: Guinea
+  81: Guinea-Bissau
+  82: Guyana
+  83: Haiti
+  84: Honduras
+  85: Hong Kong
+  86: Hungary
+  87: Iceland
+  88: India
+  89: Indonesia
+  90: Iran (Islamic Republic of)
+  91: Iraq
+  92: Ireland Ireland
+  93: Israel
+  94: Italy
+  95: Côte d'Ivoire
+  96: Jamaica
+  97: Japan
+  98: Jordan
+  99: Kazakhstan
+  100: Kenya
+  101: Kiribati
+  102: Kuwait
+  103: Kyrgyzstan
+  104: Lao People's Democratic Republic (the)
+  105: Latvia
+  106: Lebanon
+  107: Lesotho
+  108: Liberia
+  109: Libya
+  110: Liechtenstein
+  111: Lithuania
+  112: Luxembourg
+  113: Macao
+  114: North Macedonia
+  115: Madagascar
+  116: Malawi
+  117: Malaysia
+  118: Maldives
+  119: Mali
+  120: Malta
+  121: Marshall Islands (the)
+  122: Mauritania
+  123: Mauritius
+  124: Mexico
+  125: Micronesia (Federated States of)
+  126: Moldova (the Republic of)
+  127: Monaco
+  128: Mongolia
+  129: Montenegro
+  130: Montserrat
+  131: Morocco
+  132: Mozambique
+  133: Myanmar
+  134: Namibia
+  135: Nauru
+  136: Nepal
+  137: Netherlands, Kingdom of the
+  138: Saba
+  139: New Zealand
+  140: Nicaragua
+  141: Niger (the)
+  142: Nigeria
+  143: Niue
+  144: Norfolk Island
+  145: Korea (the Democratic People's Republic of)
+  146: Norway
+  147: Oman
+  148: Others
+  149: Pakistan
+  150: Palau
+  151: Panama
+  152: Papua New Guinea
+  153: Paraguay
+  154: Peru
+  155: Philippines (the)
+  156: Pitcairn
+  157: Poland
+  158: Portugal
+  159: Puerto Rico
+  160: Qatar
+  161: Congo Congo (the)
+  162: Romania
+  163: Federation (the)
+  164: Rwanda
+  165: Saint Kitts and Nevis
+  166: Saint Lucia
+  167: Saint Pierre and Miquelon
+  168: Saint Vincent and the Grenadines
+  169: Samoa
+  170: San Marino
+  171: Sao Tome and Principe
+  172: Saudi Arabia
+  173: Senegal
+  174: Serbia
+  175: Serbia
+  176: Seychelles
+  177: Sierra Leone
+  178: Singapore
+  179: Slovakia
+  180: Slovenia
+  181: Solomon Islands
+  182: Somalia
+  183: South Africa
+  184: South Georgia and the South Sandwich Islands
+  185: (the Republic of)
+  186: South Sudan
+  187: Spain
+  188: Sri Lanka
+  189: Sudan (the)
+  190: Suriname
+  191: Eswatini
+  192: Sweden
+  193: Switzerland
+  194: Syrian Arab Republic (the)
+  195: Taiwan (Province of China)
+  196: Tajikistan
+  197: Tanzania, the United Republic of
+  198: Thailand
+  199: Tibet
+  200: Timor-Leste
+  201: Togo
+  202: Tonga
+  203: Trinidad and Tobago
+  204: Tunisia
+  205: Türkiye
+  206: Turkmenistan
+  207: Turks and Caicos Islands (the)
+  208: Tuvalu
+  209: United Arab Emirates (the)
+  210: Uganda
+  211: Ukraine
+  212: United Kingdom of Great Britain and Northern Ireland (the)
+  213: States of America (the)
+  214: Uruguay
+  215: Virgin Islands (U.S.)
+  216: Uzbekistan
+  217: Vanuatu
+  218: Holy See (the)
+  219: Venezuela (Bolivarian Republic of)
+  220: Viet Nam
+  221: Wallis and Futuna
+  222: Yemen
+  223: Zambia
+  224: Zimbabwe
+  225: European Union
+  226: Pride
+  227: United Nations
